@@ -1,3 +1,3 @@
-get-childitem "./" -recurse | % {
+get-childitem "./" | % {
   Write-Output $_.FullName
 }
